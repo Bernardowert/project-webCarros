@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+@theme{
+  --max-width-ContainerGRID: 81.875rem;
+}
 
 body{
    background-color: #f1f5f9;
