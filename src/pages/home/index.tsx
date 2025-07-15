@@ -25,7 +25,7 @@ export function Home() {
             />
             <p className="font-bold mt-1 mb-2 px-2">Toyota Corolla Cross 1.8 VVTi Flex XRX CVT</p>
             <div className="flex flex-col px-2">
-              <span className="text-zinc-700 mb-6">Ano 2016/2016 || 23.000km</span>
+              <span className="text-zinc-700 mb-6">Ano 2016/2016 | 23.000km</span>
               <strong className="text-black font-medium text-xl">R$ 49.900</strong>
             </div>
 
@@ -45,7 +45,7 @@ export function Home() {
             />
             <p className="font-bold mt-1 mb-2 px-2">Toyota Corolla Cross 1.8 VVTi Flex XRX CVT</p>
             <div className="flex flex-col px-2">
-              <span className="text-zinc-700 mb-6">Ano 2016/2016 || 23.000km</span>
+              <span className="text-zinc-700 mb-6">Ano 2016/2016 | 23.000km</span>
               <strong className="text-black font-medium text-xl">R$ 49.900</strong>
             </div>
 
