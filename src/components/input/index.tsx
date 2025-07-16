@@ -13,7 +13,7 @@ export function Input({name,placeholder,type, register, rules, error}:InputProps
     return(
         <div>
             <input
-            className="w-full border-2 rounded-md h-11 px-2"
+            className="w-full border-2 border-gray-500 rounded-md h-11 px-2"
               placeholder={placeholder}
               type={type}
               {...register(name, rules)}
