@@ -2,10 +2,11 @@ import { Link } from "react-router-dom";
 import logoImg from "../../assets/logo.svg";
 import { FiLogIn, FiUser } from "react-icons/fi";
 import { ContainerGRID } from "../containerGRID";
-
+import { useContext } from "react";
+import { AuthContext } from "../../contexts/AuthContext";
 export function Header() {
-  const signed = false;
-  const loadingAuth = false;
+    const {signed, loadingAuth} = useContext(AuthContext);
+
 
 
   return (
