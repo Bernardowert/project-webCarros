@@ -1,9 +1,11 @@
+import { DashboardHeader } from "../../components/panelHeader";
+
 export function Dashboard() {
   
 
   return (
     <div>
-      <h1>pagina DashBoard</h1>
+      <DashboardHeader/>
     </div>
   )
 }
